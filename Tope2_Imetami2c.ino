@@ -338,7 +338,7 @@ void Interrupcion_0()//interrupcion a cero
 void Interrupcion_1()//interrupcion a fin de carrera 
 {
   digitalWrite(enPin,HIGH); //inicializo como 0 logico para iniciar con el motor apagado
-  EEPROM.put(1,FIN_DE_CARRERA);// debido a que golpea el pulsador en 0 debo guardar el valor nuevo de posicion
+ // EEPROM.put(1,FIN_DE_CARRERA);// debido a que golpea el pulsador en 0 debo guardar el valor nuevo de posicion
 }
 
 
